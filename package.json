@@ -1,0 +1,15 @@
+{
+  "name": "angular-bootstrap-growl",
+  "version": "1.0.0",
+  "description": "Bootstrap Growl Angular",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "gulp-uglify": "~1.2.0",
+    "gulp": "~3.9.0"
+  }
+}
