@@ -14,6 +14,8 @@ module.controller('somecontroller', ['$scope', 'Growl', function() {
     Growl.make("Agent cannot be empty", {}, { type : "error"});
 }]);
 ```
+## Types
+info, danger, error, warning, success
 ## Defaults
 ```
 {
