@@ -45,6 +45,15 @@ Growl.make("hey", {}, { type : "info"});
   make   : make
 }
 ```
+
+## Animation
+You will need to include this css https://daneden.github.io/animate.css/. Then you can use its animation types to your settings
+```
+      animate  : {
+          enter: 'animated bounceIn',
+          exit : 'animated zoomOutUp'
+      },
+```
 ## Original Fork
 
 http://bootstrap-growl.remabledesigns.com/
