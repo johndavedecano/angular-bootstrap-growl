@@ -3,6 +3,8 @@ Angular Bootstrap Growl for Your Application
 
 ## Install
 ```
+Make sure you also have the bootstrap assets loaded in your page
+
 <script src="angular.min.js"></script>
 <script src="angular-bootstrap-growl.js"></script>
 ```
@@ -15,7 +17,13 @@ module.controller('somecontroller', ['$scope', 'Growl', function() {
 }]);
 ```
 ## Types
-info, danger, error, warning, success
+```
+Growl.make("Ugh", {}, { type : "error"});
+Growl.make("Aw", {}, { type : "danger"});
+Growl.make("Yehey", {}, { type : "success"});
+Growl.make("uo", {}, { type : "warning"});
+Growl.make("hey", {}, { type : "info"});
+```
 ## Defaults
 ```
 {
